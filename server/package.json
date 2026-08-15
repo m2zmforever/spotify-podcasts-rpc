@@ -1,0 +1,12 @@
+{
+  "name": "spotify-podcast-rpc-server",
+  "version": "1.0.0",
+  "description": "Server for Spotify Podcast RPC",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@xhayper/discord-rpc": "^1.2.0",
+    "ws": "^8.18.3"
+  }
+}

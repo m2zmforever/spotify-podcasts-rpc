@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Spotify Podcast RPC",
+  "version": "0.0.1",
+  "description": "Extension for Spotify Podcast RPC Server",
+  "host_permissions": [
+    "https://open.spotify.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://open.spotify.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
